@@ -7,9 +7,9 @@ const init = async () => {
     port: 5000,
     host: process.env.NODE_ENV !== 'production' ? 'localhost' : '172.31.27.0',
     routes: {
-        cors: {
+    cors: {
           origin: ['*'],
-        },
+      },
     },
 
   });
