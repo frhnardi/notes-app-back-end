@@ -1,3 +1,4 @@
+/* eslint-disable no-use-before-define */
 const { nanoid } = require('nanoid');
 const notes = require('./notes');
 
