@@ -116,9 +116,4 @@ module.exports = {
   editNoteByIdHandler,
   deleteNoteByIdHandler,
 };
-const getAllNotesHandler = () => ({
-  status: 'success',
-  data: {
-    notes,
-  },
 });
